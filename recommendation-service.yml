@@ -10,9 +10,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-  config:
-    import: 
-      - optional:configserver:http://localhost:7777/
 
 server:
   port: 7003
